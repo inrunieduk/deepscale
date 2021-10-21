@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+        <title>Imagens com I.A</title>
+
+        <script src="script.js" type="module"></script>
+        <link rel="stylesheet" href="style.css"/>
+        
+
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class="navbar navbar-light bg-dark">
+                <div class="container">
+                    <header class="d-flex justify-content-center py-3 ">
+                      <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link ">About</a></li>
+                      </ul>
+                    </header>
+                </div>
+        </header>
+
+
+        <section>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-sm-12 text-dark text-center my-3">
+                        
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <div class="card border-primary">
+
+                            <img src="https://source.unsplash.com/300x200/?orange" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title text-primary">Redimensionar</h5>
+                                <p class="card-text">Envie a imagem para ampliar e melhorar a qualidade.</p>
+                                <a href="#" class="button button1">Enviar</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4">
+                        <div class="card border-primary">
+
+                            <img src="https://source.unsplash.com/300x200/?apple" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Recortar</h5>
+                                <p class="card-text">Recorte a imagem para redimensionar a parte selecionada.</p>
+
+                                <button id="select-image" class="button button1">
+                                    <input type="file" id="photo-file">
+                                    Selecioar Imagem
+                                </button>
+
+                                <img id="photo-preview" draggable="false">
+                                <div id="selection-tool"></div>
+
+                                <button id="crop-image" class="button button1">
+                                    Cortar Imagem
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card border-primary">
+
+                            <img src="https://source.unsplash.com/300x200/?watermelon" class="card-img-top" alt="...">
+
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Download</h5>
+                                <p class="card-text">Faça o download da imagem que você enviou.</p>
+
+                                <button id="download" class="button button1">
+                                    Download
+                                </button>
+                                
+
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-fuid bg-dark p-3">
+                <div class="row">
+                    <div class="col-sm-12 text-white text-center">
+                        <p class="mb-0">UniFaj Projeto 6° Semestre - Vandeir Aniceto</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+        -->
+        
+    </body>
+
+</html>
