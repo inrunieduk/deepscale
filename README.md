@@ -6,8 +6,6 @@ O Deepscale utiliza uma rede neural para reconstruir imagens em alta resolução
 
 # Tecnologias utilizadas 
 - Python
-- Flask
-- Keras
 
 # Como executar o projeto
 ```bash
@@ -21,7 +19,7 @@ python webserver.py
 # Próximos objetivos
 
 - [ ] Adicionar webservice
-- [ ] Adicionar webapp
+- [x] Adicionar webapp
 - [ ] Recorte de imagem no webapp
 
 # Autores
