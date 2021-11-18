@@ -47,7 +47,7 @@ Acessar http://127.0.0.1:5500/web/index.html para interagir com a aplicação.
 - [x] Adicionar webservice
 - [x] Adicionar webapp
 - [ ] Recorte de imagem no webapp
-- [] Melhoras na UI
+- [ ] Melhoras na UI
 
 # Autores
 [Igor Rossetti](https://github.com/inrunieduk) <br>
